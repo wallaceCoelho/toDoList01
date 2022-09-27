@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <main class="title">
+            <h1>LISTA DE TAREFAS</h1>
+        </main>
+    
+        <section class="box-list">
+            <input type="text" placeholder="Escreva sua Tarefa" id="task">
+            <br />
+            <div class="inputs">
+                <input type="date" id="date">
+                <input type="time" id="time">
+                <input type="button" class="btn-confirm" value="Confirmar" id="btn-confirm">
+                <input type="button" value="Deletar" class="btn-delete" id="btn-delete">
+                <input type="button" value="Editar" class="btn-edit" id="btn-edit">
+            </div>
+    
+            <table class="table-list">
+                <thead>
+                    <tr class="thead">
+                        <th scope="col" style="width: 50%;">Tarefa</th>
+                        <th scope="col">Dia</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">#</th>
+                    </tr>
+                </thead>
+                <tbody id="list">
+                        
+                </tbody>
+                
+            </table>
+    
+        </section>
+    
+        <footer>
+    
+        </footer>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

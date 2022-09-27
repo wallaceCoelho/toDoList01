@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    background-color: #f3f1f1;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 100vh;
+    box-shadow: 0 0 30px 1px #414141;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.box-list {
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-list input[type = text] {  
+    display: flex;
+    position: relative;
+    background: #BFBFBF;
+    width: 90%;
+    height: 10vh;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.box-list input[type = text]:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.inputs input[type = date] {
+    height: 5vh;
+    border: none;
+}
+
+.inputs input[type = time] {
+    height: 5vh;
+    border: none;
+}
+
+.inputs input[type = button] {
+    background-color: #414141;
+    color: #f3f1f1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.thead th{
+    background-color: #414141;
+    color: #f3f1f1;
+    border-radius: 5px;
+}
+
+.table-list {
+    overflow: hidden;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#date, #time {
+    background-color:  #f3f1f1;
+}
+
+#date, #time:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
